@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "343775029586",
+    "project_id": "asyncfb-345816",
+    "storage_bucket": "asyncfb-345816.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:343775029586:android:502f460b38c1f0ecf3b28b",
+        "android_client_info": {
+          "package_name": "com.nvt.syncfb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "343775029586-mgon66et9l29kvmv9825ftftmn334n73.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9RA_2g7i-5lp869vouqc2UnumN8dw4Ho"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "343775029586-mgon66et9l29kvmv9825ftftmn334n73.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
