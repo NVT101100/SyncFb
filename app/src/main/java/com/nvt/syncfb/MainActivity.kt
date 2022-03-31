@@ -2,6 +2,7 @@ package com.nvt.syncfb
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import com.google.firebase.database.DataSnapshot
@@ -27,6 +28,7 @@ class MainActivity : AppCompatActivity() {
             override fun onDataChange(dataSnapshot: DataSnapshot) {
                 val post = dataSnapshot.getValue<String>()
                 number.text = post
+                Log.d("Received from firebase",post.toString())
             }
 
             override fun onCancelled(databaseError: DatabaseError) {
